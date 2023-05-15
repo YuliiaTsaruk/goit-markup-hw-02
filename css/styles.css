@@ -5,7 +5,6 @@
   --first-btm-color: #ffffff;
   --second-btm-color: #4d5ae5;
   --first-background-btn: #f4f4fd;
-
 }
 
 body {
@@ -52,9 +51,11 @@ body {
 }
 
 /* Address */
+.address {
+  font-style: normal;
+}
 .address-link {
   color: var(--second-title-color);
-  font-style: normal
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -89,12 +90,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* About */
@@ -125,7 +126,7 @@ body {
 
 /* Our team */
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -135,6 +136,7 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-item {
@@ -162,7 +164,7 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
-  color:var(--first-logo) ;
+  color: var(--first-logo);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -193,7 +195,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  background-color:var(--first-background-btn);
+  background-color: var(--first-background-btn);
   cursor: pointer;
 }
 
